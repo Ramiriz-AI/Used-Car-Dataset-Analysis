@@ -7,6 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from io import StringIO
 
 st.title("Used Car Dataset Analysis")
+st.write("by M. Razhel Miroza")
 
 # Load the dataset directly
 df = pd.read_csv('used_car_dataset.csv')
